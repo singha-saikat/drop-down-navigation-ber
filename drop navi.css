@@ -1,0 +1,40 @@
+ul{
+    margin: 0;
+    padding: 15px;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+ul li{
+    float : left;
+    list-style-type:none;
+}
+ul li a {
+    padding: 20px 15px;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    
+
+}
+ul li a:hover{
+    background-color: rgb(177, 81, 81);
+}
+.dropdown-content{
+    background-color: bisque;
+    box-shadow: 0 8px 16px 0 ;
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+.dropdown-content a{
+    display: block;
+
+}
+.dropdown-content a:hover{
+    background-color: blue;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropbtn{
+    max-height: 10px;
+}
